@@ -1,0 +1,35 @@
+.todoCard {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: var(--default-b-r);
+}
+.todoCardBgOrange {
+  background: var(--todo-card--bg-orange);
+}
+.todoCardBgViolet {
+  background: var(--todo-card--bg-violet);
+}
+.todoCardBgBlue {
+  background: var(--todo-card--bg-blue);
+}
+.todoCardBgPink {
+  background: var(--todo-card--bg-pink);
+}
+.todoCardInputChecked {
+  text-decoration: line-through;
+  color: var(--todo-card-color-checked);
+}
+.todoCardButton {
+  margin-left: auto;
+  border: none;
+  background: rgb(0, 0, 0, 0);
+  padding: 6px;
+}
+.todoCardButton:hover,
+.todoCardButton:focus {
+  background: rgb(0, 0, 0, 0.1);
+  cursor: pointer;
+  border-radius: var(--default-b-r);
+}

@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+#root {
+  height: 100%;
+}
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+:root {
+  --default-layout-bg: linear-gradient(0.25turn, #3111ff, #6270ff);
+  --default-layout-main-bg: #161a2b;
+  --default-fonts-color: #fff;
+  --default-b-r: 6px;
+  --default-mr-b: 24px;
+  --todo-card--bg-orange: linear-gradient(#ff7514, #ff5612);
+  --todo-card--bg-violet: linear-gradient(#600cff, #9900fa);
+  --todo-card--bg-blue: linear-gradient(#149dff, #127cff);
+  --todo-card--bg-pink: linear-gradient(#ff0cec, #fa008a);
+  --todo-card-color-checked: grey;
+  --add-todo-bg: linear-gradient(0.25turn, #4c0fcd, #9601fb);
+}

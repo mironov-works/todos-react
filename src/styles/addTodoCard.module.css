@@ -1,0 +1,35 @@
+.addTodo {
+  display: flex;
+  padding: 2px;
+  border-radius: var(--default-b-r);
+  background: var(--add-todo-bg);
+}
+.addTodoInput {
+  width: 100%;
+  border: none;
+  padding: 12px;
+  font-family: inherit;
+  color: inherit;
+  background-color: var(--default-layout-main-bg);
+}
+.addTodoButton {
+  flex-shrink: 0;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0);
+  font-size: 0.8em;
+  color: inherit;
+  border: none;
+}
+.addTodoButton:not(:disabled) {
+  cursor: pointer;
+}
+.addTodoButton:disabled {
+  color: grey;
+}
+.addTodoButton:not(:disabled):hover,
+.addTodoButton:not(:disabled):focus {
+  background: rgba(0, 0, 0, 0.1);
+}
+.addTodoButton:not(:disabled):active {
+  background: rgba(0, 0, 0, 0.2);
+}

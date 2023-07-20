@@ -1,0 +1,35 @@
+.page {
+  height: 100%;
+  padding: 40px 12px 20px;
+  background: var(--default-layout-bg);
+}
+.pageMain {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 24px 24px 48px;
+  border-radius: var(--default-b-r);
+  color: var(--default-fonts-color);
+  background-color: var(--default-layout-main-bg);
+}
+svg {
+  color: #fff;
+  fill: currentColor;
+}
+.pageMainTitle {
+  text-align: center;
+  margin-bottom: var(--default-mr-b);
+  font-size: 1em;
+}
+.pageMainAddTodo {
+  margin-bottom: var(--default-mr-b);
+}
+.pageMainCardsList {
+  margin-bottom: var(--default-mr-b);
+  list-style: none;
+}
+.pageMainCardsListItem:not(:last-child) {
+  margin-bottom: 6px;
+}
+.pageMainMessage {
+  text-align: center;
+}
